@@ -1,0 +1,61 @@
+.body1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(58, 50, 50);
+}
+ 
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(25, 1em);
+    grid-template-rows: repeat(25, 1em);
+    gap: 3px; 
+
+}
+.pixel{
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border: 1px solid black;
+    box-sizing: border-box;
+    color: black;
+}
+
+
+.color-pixel{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+.red{   
+    background: rgb(255,0,0);
+}
+.green{
+    background: rgb(0,255,0);
+}
+.yellow{
+    background: rgb(255, 238, 0);
+}
+.blue{
+    background: rgb(0,0,255);
+}
+.orange{
+    background: rgb(255, 128, 0);
+}
+.pink{
+    background: rgb(255, 192, 203);
+}
+.white{
+    background: rgb(255,255,255);
+}
+.black{
+    background: rgb(0,0,0);
+}
+.clear{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmDAwE5gWVtLcGz9z26MM_r0LG5PPNdQw8Lw&s');
+    background-color: #ccc;
+}
